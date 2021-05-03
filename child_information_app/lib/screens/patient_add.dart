@@ -4,7 +4,7 @@ import 'package:child_information_app/screens/patient.dart';
 class PatientAdd extends StatefulWidget {
   List<Patient> patients;
   PatientAdd(
-      this.patients); //parametreyle gelecek olan bir list of student olucak onu direk ata demek
+      this.patients); 
   @override
   State<StatefulWidget> createState() {
     return _PatientAddState();
