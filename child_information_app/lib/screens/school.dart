@@ -42,7 +42,7 @@ class _SchoolState extends State<School> {
                     child: Text('Anasayfaya Dön'),
                   ),
                 ),
-                Buildbody()
+                BuildImage()
               ],
             ),
           ),
@@ -51,7 +51,7 @@ class _SchoolState extends State<School> {
     );
   }
 
-  Widget Buildbody() {
+  Widget BuildImage() {
     return Column(
       children: <Widget>[
         IntrinsicHeight(
