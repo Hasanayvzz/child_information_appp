@@ -40,7 +40,7 @@ class _VirusState extends State<Virus> {
                     child: Text('Anasayfaya Dön'),
                   ),
                 ),
-                Buildbody()
+                BuildImage()
               ],
             ),
           ),
@@ -49,7 +49,7 @@ class _VirusState extends State<Virus> {
     );
   }
 
-  Widget Buildbody() {
+  Widget BuildImage() {
     return Column(
       children: <Widget>[
         IntrinsicHeight(
